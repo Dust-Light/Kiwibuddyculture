@@ -4,6 +4,12 @@ on:
   push:
     branches: [main]
 
+# 设置 GITHUB_TOKEN 的权限
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -28,4 +34,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: out
-          branch: gh-pages 
+          branch: gh-pages
+          token: ${{ secrets.GITHUB_TOKEN }} 
