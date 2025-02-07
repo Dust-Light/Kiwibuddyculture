@@ -10,15 +10,15 @@ export default function Home() {
       </header>
 
       <nav className="quick-nav">
-        <Link href="/culture-comparison" className="nav-card">
+        <Link href="/culture-comparison/" className="nav-card">
           <h2>文化对比</h2>
           <p>了解中国和新西兰的文化差异，帮助你更好地适应生活</p>
         </Link>
-        <Link href="/daily-tips" className="nav-card">
+        <Link href="/daily-tips/" className="nav-card">
           <h2>生活贴士</h2>
           <p>日常生活中的实用建议和注意事项</p>
         </Link>
-        <Link href="/maori-culture" className="nav-card">
+        <Link href="/maori-culture/" className="nav-card">
           <h2>毛利文化</h2>
           <p>探索新西兰独特的毛利文化传统和习俗</p>
         </Link>

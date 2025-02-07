@@ -5,6 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  assetPrefix: '/Kiwibuddyculture/',
+  trailingSlash: true,
 }
 
 module.exports = nextConfig 
